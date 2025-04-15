@@ -13,7 +13,7 @@ body {
   .container {
     text-align: center;
     padding: 20px;
-    background-color: #000000;
+    background-color: #383535;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     width: 90%;
@@ -24,7 +24,7 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007BFF;
+    background-color: #aa1e1e;
     color: white;
     border: none;
     border-radius: 5px;
@@ -32,14 +32,19 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #7a0505;
   }
   
   #drill-display {
     margin-top: 15px;
     font-size: 18px;
+    color: #f0f4f8;
   }
-  
+
+  #headertext {
+    color:#f0f4f8
+  }
+
   /* Responsive tweaks */
   @media (max-width: 600px) {
     .container {
