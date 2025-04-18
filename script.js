@@ -1,6 +1,6 @@
 const drillDisplay = document.getElementById('drill-display');
 const generateDrillButton = document.getElementById('generate-drill');
-const listDisplay = document.getElementById('list-display'); //Select the list
+const listDisplay = document.getElementById('list-display'); //the whole list
 const clearList = document.getElementById('clear-list');
 
 
@@ -12,9 +12,16 @@ function generateDrill(){
   const randomDrill = drills[randomIndex];
   drillDisplay.innerText = randomDrill;
 
+  const listItem = listDisplay.getElementsByTagName('li'); //do list checking first
+  for(let i = 0; i < listItem.length; i++){
+    if(listItem[i].innerText === randomDrill){
+      listDisplay.removeChild(listItem[i]);
+    };
+  };
+
   const createList = document.createElement('li'); //Create a new list item
   createList.innerText = randomDrill; //Set the text content into the randomDrill
-  listDisplay.appendChild(createList); //append it to the list. 
+  listDisplay.appendChild(createList); //append it to the list.
 
 };
 
