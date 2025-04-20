@@ -1,9 +1,4 @@
 const drills = [
-    "Jab - Cross - Hook",
-    "Lead Teep - Rear Round Kick",
-    "Check - Return Low Kick",
-    "Cross - Hook - Rear Kick",
-    "Jab - Cross - Switch Kick",
-    "Jab - Rear Elbow - Lead Knee",
-    "Feint Jab - Rear Roundhouse"
+    "Jab - Inside Leg Kick, Feint Jab - Inside Leg Kick, Feint Inside Leg Kick, (Opponnent does not react with Stance Switch.) Cross to Body - L. Hook - Low Kick.",
+    "Jab - Inside Leg Kick, Feint Jab - Inside Leg Kick, Feint Inside Leg Kick, (Opponnent Switch Stances) - Lead Hand Probe, Step to Outside - Rear Kick."
 ];
