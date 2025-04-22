@@ -28,6 +28,10 @@ body {
     color: #f0f4f8;
   }
 
+  li {
+    padding: 10px;
+  }
+
   
   button {
     margin-top: 20px;
